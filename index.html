@@ -1,108 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5292980020968894"
-     crossorigin="anonymous"></script>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live Street Cam</title>
+    <title>2212 Street Cams</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #ffffff; /* white background */
-            font-family: Arial, sans-serif;
         }
-
-        .container {
-            max-width: 800px; /* Set max-width of the container */
-            margin: 0 auto;
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
             padding: 20px;
-            position: relative;
         }
-
-        .page-title {
-            text-align: center;
-            margin-bottom: 20px;
+        .about {
+            padding: 20px;
+            background-color: #f2f2f2;
         }
-
-        .banner-ad {
-            text-align: center;
-            margin-bottom: 20px;
+        .camera-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
         }
-
-        .main-section {
-            position: relative;
-        }
-
-        .iframe-container {
-            position: relative;
-            margin-bottom: 20px;
-            overflow: hidden; /* Hide overflow to prevent vertical scrollbars */
-        }
-
-        .iframe-box {
+        .camera-item img {
             width: 100%;
-            height: 600px; /* Set height of the iframe box */
-            border: 1px solid #ccc;
-            padding: 10px;
-            box-sizing: border-box;
+            height: auto;
+            border-radius: 8px;
         }
-
-        .vertical-ad {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            width: calc((100% - 800px) / 2); /* Set the width of vertical ads container */
-            height: 100%;
-        }
-
-        .vertical-ad.left {
-            left: -100px; /* Adjust the left positioning value to move it further to the left */
-        }
-
-        .vertical-ad.right {
-            right: -80px; /* Adjust the right positioning value to move it further to the right */
-        }
-
-        .horizontal-ad {
+        footer {
+            background-color: #333;
+            color: #fff;
             text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
+		
+		.buffer {
+		padding-bottom:100px;
+		
+		}
     </style>
 </head>
 <body>
+    <header>
+        <h1>2212 Street Cams</h1>
+    </header>
 
-<div class="container">
-    <h1 class="page-title">Live Street Cam</h1> 
-    <div class="banner-ad">
-       
+    <div class="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to keeping communities safe and connected by providing live street camera feeds. Our cameras are privately owned or rented, and we rely on donations and our store to support this project.</p>
+        <p>Join the network and start making a difference! <a href="join.html">Click here</a> to learn more and get involved.</p>
+		<p>Donations allow us to keep providing the service for free! <a href="https://donate.stripe.com/aEU4k8eCN2R59A4eUV">Click here</a> to donate and have your chance to win a Axis security camera<p>
+		<p>Our Ebay store is a another way to support us! <a href="https://www.ebay.co.uk/usr/sca54785">Click here</a> to take a look at what we have to offer<p>
     </div>
 
-    <div class="main-section">
-        <div class="vertical-ad left">
-            
+    <div class="camera-grid">
+        <div class="camera-item">
+            <a href="201.html"><img src="camera1.jpg" alt="Camera 1"></a>
         </div>
-
-        <div class="iframe-container">
-                   <div><iframe width="800" height="535" src="https://rtsp.me/embed/K4yGKHhb/" frameborder="0" allowfullscreen></iframe></div>
+        <div class="camera-item">
+            <a href="202.html"><img src="https://connectandprotect.net.au/wp-content/uploads/2024/01/CCTV-Cameras-Not-Allowed.jpg.webp" alt="Camera 2"></a>
         </div>
-
-        <div class="horizontal-ad">
-           
+        <!-- Repeat for additional cameras -->
+		<div class="camera-item">
+            <a href="203.html"><img src="https://connectandprotect.net.au/wp-content/uploads/2024/01/CCTV-Cameras-Not-Allowed.jpg.webp" alt="Camera 3"></a>
         </div>
-
-        <div class="vertical-ad right">
-		    
-        </div>
-		<p>Through our live cameras, we offer viewers worldwide a glimpse into life in London. Setting up and running these cameras incurs costs. If you'd like to support us, please consider donating using the provided link or purchasing something from our eBay store. Your contribution helps us maintain and improve our services. Thank you for your support! <a href="https://donate.stripe.com/aEU4k8eCN2R59A4eUV">[Donate Here]</a> <a href="https://www.ebay.co.uk/usr/sca54785">[Ebay Store Here]</a>
-</p>
-      <p>We don't gather any information about you as a viewer when you use this site. However, if you choose to connect your camera to our service, whether you bought it directly from us or elsewhere, we'll need to collect some details such as your name to set up your live page.
-
-If you make a donation or purchase a product from us, we may access information such as your name, email address, phone number, billing/shipping address, last four digits of your card number, card expiry date, and the amount you've donated. Additionally, if you purchase a product or service, we'll be able to see which items or services you've paid for.
-</p>	  
+		
     </div>
-</div>
+	
+	
+	
+	<div class="buffer">
+	
+	
+	</div>
+	
 
+    <footer>
+        <p>&copy; 2024 2212 Street Cams</p>
+    </footer>
 </body>
 </html>
